@@ -1,24 +1,26 @@
 {
   "name": "ativ-filmes",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "CLS && nodemon server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/turco-vic/ATIV-FILMES.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["SENAI", "Back-End", "Atividade Filmes", "Desenvolvimento de Sistemas"],
+  "author": "Enzo",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/turco-vic/ATIV-FILMES/issues"
   },
   "homepage": "https://github.com/turco-vic/ATIV-FILMES#readme",
-  "description": "",
+  "description": "Atividade Web Service Back-End sobre Filmes",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "nodemon": "^3.1.9",
     "uuid": "^11.0.5"
