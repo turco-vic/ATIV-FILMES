@@ -3,10 +3,11 @@ const MovieList = require("../models/MovieList");
 
 const lista = new MovieList();
 
-const filme1 = new Movie("Parece", "Luan Santana", "3:21", 100);
-lista.addMovie(musica1);
+lista.addMovie(new Movie("Rambo", "Sylvester Stallone", "01:33:00", "Ação"));
 
-lista.addMovie(new Movie("Boiadeira", "Ana Castela", "3:11", 220));
+lista.addMovie(new Movie("Deadpool", "Ryan Reynolds", "02:07:00", "Ação"));
+
+lista.addMovie(new Movie("Logan", "Hugh Jackman", "02:17:00", "Ação"));
 
 const router = {
     addMovie: (req, res) => {
