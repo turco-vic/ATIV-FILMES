@@ -62,17 +62,17 @@ const router = {
         }
     },
 
-    deleteSong: (req, res) => {
+    deleteMovie: (req, res) => {
         try {
             const movie = req.params.id;
             lista.deleteMovie(movie);
             res.status(200).json({
                 message: "Filme deletado com sucesso",
-                song,
+                movie,
             });
         } catch (error) {
             res.status(404).json({
-                message: "Erro ao deletar musica",
+                message: "Erro ao deletar filme",
                 error: error.message,
             });
         }

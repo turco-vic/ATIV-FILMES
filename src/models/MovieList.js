@@ -18,13 +18,14 @@ class MovieList {
     }
 
     updateMovie(id, updateData) {
-        const movie = getMovieById(id);
+        const movie = this.getMovieById(id);
         Object.assign(movie, updateData);
         return movie;
     }
 
     deleteMovie(id) {
         this.movies = this.movies.filter((movie) => movie.id != id);
+        
     }
 
     getTotalMovies() {
