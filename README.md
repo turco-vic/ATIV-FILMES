@@ -3,7 +3,6 @@
 
 ## 1-Diagrama de classes:
 
-(adiciona o seu diagrama)
 
 ## Arquitetura MVC
 O trabalho foi organizado seguindo a seguinte arquitetura de pastas:
