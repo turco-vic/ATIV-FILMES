@@ -3,8 +3,10 @@
 
 ## 1-Diagrama de classes:
 
+![DIAGRAMA DE CLASSES BACK-END MOVIES](https://github.com/user-attachments/assets/b026bc07-39dc-45f7-80b9-53dc3381e887)
 
-## Arquitetura MVC
+
+## 2-Arquitetura MVC
 O trabalho foi organizado seguindo a seguinte arquitetura de pastas:
 
 ```
@@ -18,14 +20,14 @@ src/
 │   ├── MovieRoutes.js
 ├── server.js
 ```
-## Postman
+## 3-Postman
 Foram criadas coleções de requisições para testar a API.
 
-## Dependências
+## 4-Dependências
 Realizaram-se as dependências necessárias para o funcionamento adequado do projeto.
 
-## Formato JSON
+## 5-Formato JSON
 Foi utilizado o formato JSON para comunicação entre as APIs.
 
-## Routes
+## 6-Routes
 No projeto foram definidas rotas no Exprss para o gerenciamento dos filmes.
