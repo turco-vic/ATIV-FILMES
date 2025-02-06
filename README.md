@@ -1,21 +1,21 @@
-<h1 align="center">ATIVIDADE BACK-END - FILMES</h1>
-<p align="center">Escrever uma breve descrição</p>
+<h1 align="center">PROJETO DE REVISÃO BACK-END - FILMES</h1>
+<p align="center">O objetivo da atividade é criar um projeto sobre filme, Sendo muito bem estruturado e seguir as melhores práticas de desenvolvimento.</p>
 
-###Objetivo:
-
-Projeto de revisão a back-end sobre filmes.
-
-###Diagrama de classes:
+## 1-Diagrama de classes:
 
 (adiciona o seu diagrama)
 
-###Arquitetura MVC
+## Arquitetura MVC
+O trabalho foi organizado seguindo a seguinte arquitetura de pastas:
+
+```
 src/
 ├── controllers/
-│   ├── filmeController.js
+│   ├── movieController.js
 ├── models/
-│   ├── filme.js
-│   ├── filmeList.js
+│   ├── Movie.js
+│   ├── MovieList.js
 ├── routes/
-│   ├── filmeRoutes.js
+│   ├── MovieRoutes.js
 ├── server.js
+```
