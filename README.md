@@ -18,3 +18,14 @@ src/
 │   ├── MovieRoutes.js
 ├── server.js
 ```
+## Postman
+Foram criadas coleções de requisições para testar a API.
+
+## Dependências
+Realizaram-se as dependências necessárias para o funcionamento adequado do projeto.
+
+## Formato JSON
+Foi utilizado o formato JSON para comunicação entre as APIs.
+
+## Routes
+No projeto foram definidas rotas no Exprss para o gerenciamento dos filmes.
