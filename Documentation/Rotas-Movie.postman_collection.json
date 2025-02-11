@@ -1,0 +1,148 @@
+{
+	"info": {
+		"_postman_id": "c9c14e02-0d35-47df-86ee-34c77c151255",
+		"name": "Rotas-Movie",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37231923"
+	},
+	"item": [
+		{
+			"name": "XML",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<Movie>\r\n    <title>Deadpool</title>\r\n    <actor>Riam Reinaldo</actor>\r\n    <duration>02:30:00</duration>\r\n    <gender>Action</gender>\r\n</Movie>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TESTE-FILMES",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/api/movies",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"movies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CRIAR FILME",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"title\": \"Titanic\",\r\n\"actor\": \"David Beckhan\",\r\n\"duration\": \"03:00:00\",\r\n\"gender\" : \"Romance\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/movies",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"movies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EDITAR FILME",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"title\": \"Titanic\",\r\n\"actor\": \"David Beckham\",\r\n\"duration\": \"03:00:00\",\r\n\"gender\" : \"Romance\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/movies/8bba28d0-4a3b-447b-b6b5-9b0feca45335",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"movies",
+						"8bba28d0-4a3b-447b-b6b5-9b0feca45335"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BUSCAR POR ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/api/movies/bbe5be08-824e-4890-a797-add992ba205f",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"movies",
+						"bbe5be08-824e-4890-a797-add992ba205f"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETAR FILME",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/api/movies/8bba28d0-4a3b-447b-b6b5-9b0feca45335",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"movies",
+						"8bba28d0-4a3b-447b-b6b5-9b0feca45335"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
